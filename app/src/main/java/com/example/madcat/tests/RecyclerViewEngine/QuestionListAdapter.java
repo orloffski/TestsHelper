@@ -27,7 +27,6 @@ public class QuestionListAdapter extends RecyclerView.Adapter<QuestionListAdapte
     private Map<String, QuestionItems> questionItemsList;
     private List<Question> questions;
     private List<Question> questionsCopy;
-    private int test;
 
     public QuestionListAdapter(Context context, Map<String, QuestionItems> questionItemsList) {
         this.context = context;
